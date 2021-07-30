@@ -80,7 +80,7 @@ class _CardsState extends State<Cards> {
                                         0.65,
                                     decoration: new BoxDecoration(
                                         color: Colors.grey.shade200
-                                            .withOpacity(0.3)),
+                                            .withOpacity(0.1)),
                                     child: Padding(
                                       padding: EdgeInsets.symmetric(
                                           vertical: 12, horizontal: 8),
