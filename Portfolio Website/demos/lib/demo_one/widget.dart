@@ -24,7 +24,7 @@ class DemoOne extends StatelessWidget {
                   height: MediaQuery.of(context).size.height * 2.7,
                   decoration: BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage('assets/4.jpg'),
+                          image: AssetImage('assets/2.jpg'),
                           fit: BoxFit.cover)),
                   child: Container(
                     height: double.infinity,
