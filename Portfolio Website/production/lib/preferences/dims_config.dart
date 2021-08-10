@@ -23,4 +23,8 @@ class DimsConfig {
     isTablet = deviceWidth >= 500 && deviceWidth <= 900;
     isDesktop = deviceWidth >= 900;
   }
+
+  height(double input) => input * heightRatio;
+  
+  width(double input) => input * widthRatio;
 }
