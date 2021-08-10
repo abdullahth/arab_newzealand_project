@@ -58,10 +58,8 @@ class _BouncingTransitionWidgetState extends State<BouncingTransitionWidget> {
   Widget build(BuildContext context) {
     final dims = DimsConfig(context);
     final theme = Theme.of(context);
-    return ResponsiveWidget(context,
-        mobileWidget: Scaffold(),
-        desktopWidget: Scaffold(
-          body: AnimatedContainer(
+    return Scaffold(
+        body: AnimatedContainer(
             alignment: Alignment.centerLeft,
             transformAlignment: Alignment.centerRight,
             curve: Curves.easeIn,
@@ -99,8 +97,6 @@ class _BouncingTransitionWidgetState extends State<BouncingTransitionWidget> {
                   ),
                 ),
               ),
-            ),
-          ),
-        )).build();
+            )));
   }
 }
