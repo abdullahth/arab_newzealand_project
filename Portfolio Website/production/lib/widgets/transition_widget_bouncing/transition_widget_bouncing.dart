@@ -1,10 +1,8 @@
 import 'dart:async';
-import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:production/preferences/dims_config.dart';
 import 'package:production/preferences/enums/assets.dart';
-import 'package:production/preferences/responsive.dart';
 
 class BouncingTransitionWidget extends StatefulWidget {
   @override
