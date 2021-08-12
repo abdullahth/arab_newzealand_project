@@ -20,11 +20,11 @@ class DimsConfig {
     widthRatio = deviceWidth / _debugginDeviceWidth;
 
     isMobile = deviceWidth <= 500;
-    isTablet = deviceWidth >= 500 && deviceWidth <= 900;
-    isDesktop = deviceWidth >= 900;
+    isTablet = deviceWidth >= 500 && deviceWidth <= 1100;
+    isDesktop = deviceWidth >= 1100;
   }
 
   height(double input) => input * heightRatio;
-  
+
   width(double input) => input * widthRatio;
 }
