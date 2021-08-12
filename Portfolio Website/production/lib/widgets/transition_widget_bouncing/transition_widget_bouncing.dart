@@ -11,6 +11,7 @@ class BouncingTransitionWidget extends StatefulWidget {
 }
 
 class _BouncingTransitionWidgetState extends State<BouncingTransitionWidget> {
+  late Timer timer;
   bool? expandAssets, expandFirstContainer;
   bool? expandLastContainer;
   @override
@@ -48,8 +49,15 @@ class _BouncingTransitionWidgetState extends State<BouncingTransitionWidget> {
     Timer.periodic(Duration(milliseconds: 1000), (_) {
       setState(() {
         expandAssets = !expandAssets!;
+        timer = _;
       });
     });
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+    timer.cancel();
   }
 
   @override
