@@ -19,8 +19,8 @@ class DimsConfig {
     heightRatio = deviceHeight / _debugginDeviceHeight;
     widthRatio = deviceWidth / _debugginDeviceWidth;
 
-    isMobile = deviceWidth <= 500;
-    isTablet = deviceWidth >= 500 && deviceWidth <= 1100;
+    isMobile = deviceWidth <= 600;
+    isTablet = deviceWidth >= 600 && deviceWidth <= 1100;
     isDesktop = deviceWidth >= 1100;
   }
 

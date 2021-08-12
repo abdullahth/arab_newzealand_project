@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class FadeInTransition extends StatefulWidget {
   Widget child;
   FadeInTransition(this.child);
