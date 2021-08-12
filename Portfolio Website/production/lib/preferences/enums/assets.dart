@@ -2,7 +2,13 @@ import 'package:flutter/material.dart';
 
 /// All assets files' pathes will be stored in this enumuration
 
-enum Assets { africaVector, newzealandVector, logoPlaceholder }
+enum Assets {
+  africaVector,
+  newzealandVector,
+  logoPlaceholder,
+  logoPlaceholderWhite,
+  natureBackground
+}
 
 extension path on Assets {
   AssetImage get provider {
@@ -15,6 +21,12 @@ extension path on Assets {
 
       case Assets.logoPlaceholder:
         return AssetImage("logo-placeholder.png");
+
+      case Assets.logoPlaceholderWhite:
+        return AssetImage("logo-placeholder-white.png");
+
+      case Assets.natureBackground:
+        return AssetImage("5.jpg");
     }
   }
 }
