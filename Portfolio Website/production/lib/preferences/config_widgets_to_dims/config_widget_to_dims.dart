@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../dims_config.dart';
 
+// ignore: must_be_immutable
 class WidgetToDims extends StatefulWidget {
   BuildContext screenContext;
   Widget mobile, desktop;
