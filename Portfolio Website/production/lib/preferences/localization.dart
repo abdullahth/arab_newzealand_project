@@ -11,6 +11,7 @@ class Messages extends Translations {
               "حيث الطبيعة الخلابة، أحسن المزارع عالمياً، التعليم الغير قابل للنقد وأكثر من ذلك!.\nإنها جنة علي الأرض.",
           'start_journy': "رحلة سريعة",
           "more_info": "تعرف علي المجموعة",
+          'learn_more': "تعرف علي المزيد!",
           // AppBar
           'about': "عن المجلس",
           'activity': "الأنشطة",
@@ -19,6 +20,22 @@ class Messages extends Translations {
           'services': "الخدمات",
           'contact': "تواصل معنا",
           'companies': "الشركات",
+
+          // Journey Page
+          'tour_message': "تأكد من إغتنام الرحلة إلى نيوزيلندا!",
+          'discover': "إكتشف...",
+
+          // Categories
+          'health': "الصحة",
+          'education': "التعليم",
+          'sport': "الرياضة",
+          'business': "الأعمال",
+          'technology': "التكنولوجيا",
+
+          // Journey Slides
+          'slide_one': "أبطال الراجبي يحققون التاريخ!",
+          'slide_two': "أنت تعرف عن مزارعنا!",
+          'slide_three': "نتحداك أن تجد ماهو خلاب أكثر من هذا!",
         },
         "en": {
           // Home Page
@@ -28,6 +45,7 @@ class Messages extends Translations {
               "Where beautiful nature, the best farms in the world, uncritical education and even more!\nIt's a heaven on earth.",
           'start_journy': "Start journey!",
           "more_info": "More about Council!",
+          'learn_more': "Learn More!",
           // AppBar
           'about': "About",
           'activity': "Activity",
@@ -36,6 +54,22 @@ class Messages extends Translations {
           'services': "Services",
           'contact': "Contact",
           'companies': "Companies",
+
+          // Journey Page
+          'tour_message': "Be sure to embrace the journey to New Zealand!",
+          'discover': "Discover...",
+
+          // Categories
+          'health': "Health",
+          'education': "Education",
+          'sport': "Sport",
+          'business': "Business",
+          'technology': "Technology",
+
+          // Journey Slides
+          'slide_one': "Rugby Boys Keep it real!",
+          'slide_two': "You know about our farms!",
+          'slide_three': "Challenge You to find somewhere more bewitching!",
         },
       };
 }
