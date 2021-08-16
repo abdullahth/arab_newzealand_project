@@ -5,28 +5,52 @@ import 'package:flutter/material.dart';
 enum Assets {
   africaVector,
   newzealandVector,
-  logoPlaceholder,
-  logoPlaceholderWhite,
-  natureBackground
+  logo,
+  logoWhite,
+  logoTypo,
+  logoWhiteTypo,
+  natureBackground,
+  aucklandCity,
+  rugby,
+  farm,
+  mountains
 }
 
 extension path on Assets {
   AssetImage get provider {
     switch (this) {
       case Assets.africaVector:
-        return AssetImage("africa-vector.png");
+        return AssetImage("assets/africa-vector.png");
 
       case Assets.newzealandVector:
-        return AssetImage("newzealand-vector.png");
+        return AssetImage("assets/newzealand-vector.png");
 
-      case Assets.logoPlaceholder:
-        return AssetImage("logo-placeholder.png");
+      case Assets.logo:
+        return AssetImage("assets/logo-placeholder.png");
 
-      case Assets.logoPlaceholderWhite:
-        return AssetImage("logo-placeholder-white.png");
+      case Assets.logoWhite:
+        return AssetImage("assets/logo-placeholder-white.png");
+
+      case Assets.logoTypo:
+        return AssetImage("assets/logo-placeholder.png");
+
+      case Assets.logoWhiteTypo:
+        return AssetImage("assets/logo-placeholder-white.png");
+
+      case Assets.aucklandCity:
+        return AssetImage("assets/1.jpg");
 
       case Assets.natureBackground:
-        return AssetImage("5.jpg");
+        return AssetImage("assets/5.jpg");
+
+      case Assets.mountains:
+        return AssetImage("assets/4.jpg");
+
+      case Assets.farm:
+        return AssetImage("assets/3.jpg");
+
+      case Assets.rugby:
+        return AssetImage("assets/rugby.jpg");
     }
   }
 }

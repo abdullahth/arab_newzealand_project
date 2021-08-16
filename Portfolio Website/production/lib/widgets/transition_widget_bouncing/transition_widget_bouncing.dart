@@ -95,8 +95,7 @@ class _BouncingTransitionWidgetState extends State<BouncingTransitionWidget> {
                         curve: Curves.bounceInOut,
                         decoration: BoxDecoration(
                           image: DecorationImage(
-                              image: Assets.logoPlaceholder.provider,
-                              fit: BoxFit.contain),
+                              image: Assets.logo.provider, fit: BoxFit.contain),
                         ),
                       ),
                     ],
