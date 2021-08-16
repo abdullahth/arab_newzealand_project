@@ -29,8 +29,12 @@ class Messages extends Translations {
           'health': "الصحة",
           'education': "التعليم",
           'sport': "الرياضة",
+          'agriculture': "الزراعة",
           'business': "الأعمال",
           'technology': "التكنولوجيا",
+          'youth_development': "تنمية الشباب",
+          'tourism': "السياحة",
+          'landscape': "المعالم الطبيعية",
 
           // Journey Slides
           'slide_one': "أبطال الراجبي يحققون التاريخ!",
@@ -63,8 +67,12 @@ class Messages extends Translations {
           'health': "Health",
           'education': "Education",
           'sport': "Sport",
+          'agriculture': "Agricluture",
           'business': "Business",
           'technology': "Technology",
+          'youth_development': "Youth Development",
+          'tourism': "Tourism",
+          'landscape': "Landscapes",
 
           // Journey Slides
           'slide_one': "Rugby Boys Keep it real!",
