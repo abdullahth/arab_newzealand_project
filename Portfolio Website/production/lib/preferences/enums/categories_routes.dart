@@ -5,7 +5,10 @@ enum CategoriesRoutes {
   education,
   youthDevelopment,
   health,
+  technology,
   business,
+  tourism,
+  landscape
 }
 
 extension ext on CategoriesRoutes {
@@ -28,7 +31,10 @@ extension ext on CategoriesRoutes {
       case CategoriesRoutes.education:
       case CategoriesRoutes.youthDevelopment:
       case CategoriesRoutes.health:
+      case CategoriesRoutes.technology:
       case CategoriesRoutes.business:
+      case CategoriesRoutes.tourism:
+      case CategoriesRoutes.landscape:
       default:
         return null;
     }
