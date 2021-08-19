@@ -102,7 +102,7 @@ class _HomePageAppBarState extends State<HomePageAppBar> {
                 width: dims.deviceHeight * 0.08,
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: Assets.logoPlaceholderWhite.provider,
+                        image: Assets.logoWhite.provider,
                         fit: BoxFit.contain)),
               ),
               Spacer(),
@@ -207,7 +207,7 @@ class _HomePageAppBarState extends State<HomePageAppBar> {
                     width: dims.deviceHeight * 0.08,
                     decoration: BoxDecoration(
                         image: DecorationImage(
-                            image: Assets.logoPlaceholderWhite.provider,
+                            image: Assets.logoWhite.provider,
                             fit: BoxFit.contain)),
                   ),
                 ),

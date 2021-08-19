@@ -10,10 +10,34 @@ enum Assets {
   logoTypo,
   logoWhiteTypo,
   natureBackground,
-  aucklandCity,
+
+  // Categories
   rugby,
   farm,
-  mountains
+  mountains,
+  health,
+  education,
+  youth,
+  technology,
+  business,
+  tourism,
+
+  // Categories Icons
+  healthIcon,
+  agricultureIcon,
+  educationIcon,
+  youthDevelopmentIcon,
+  tourismIcon,
+  landscapeIcon,
+  technologyIcon,
+  businessIcon,
+  sportIcon,
+
+  // Cities
+  aucklandCity,
+  hamiltonCity,
+  christchurchCity,
+  welingtonCity,
 }
 
 extension path on Assets {
@@ -37,12 +61,10 @@ extension path on Assets {
       case Assets.logoWhiteTypo:
         return AssetImage("assets/logo-placeholder-white.png");
 
-      case Assets.aucklandCity:
-        return AssetImage("assets/1.jpg");
-
       case Assets.natureBackground:
         return AssetImage("assets/5.jpg");
 
+      // Categories
       case Assets.mountains:
         return AssetImage("assets/4.jpg");
 
@@ -51,6 +73,73 @@ extension path on Assets {
 
       case Assets.rugby:
         return AssetImage("assets/rugby.jpg");
+
+      case Assets.health:
+        return AssetImage("assets/health.jpg");
+
+      case Assets.education:
+        return AssetImage("assets/education.jpg");
+
+      case Assets.youth:
+        return AssetImage("assets/youth.jpg");
+
+      case Assets.technology:
+        return AssetImage("assets/technology.jpg");
+
+      case Assets.business:
+        return AssetImage("assets/currency.jpg");
+
+      case Assets.tourism:
+        return AssetImage("assets/tourism.jpg");
+
+      case Assets.healthIcon:
+        return Assets.logoWhite.provider;
+      // return AssetImage("assets/health_icon.jpg");
+
+      case Assets.agricultureIcon:
+        return Assets.logoWhite.provider;
+      // return AssetImage("assets/agriculture_icon.jpg");
+
+      case Assets.educationIcon:
+        return Assets.logoWhite.provider;
+      // return AssetImage("assets/education_icon.jpg");
+
+      case Assets.youthDevelopmentIcon:
+        return Assets.logoWhite.provider;
+      // return AssetImage("assets/youthDevelopment_icon.jpg");
+
+      case Assets.tourismIcon:
+        return Assets.logoWhite.provider;
+      // return AssetImage("assets/tourism_icon.jpg");
+
+      case Assets.landscapeIcon:
+        return Assets.logoWhite.provider;
+      // return AssetImage("assets/landscape_icon.jpg");
+
+      case Assets.technologyIcon:
+        return Assets.logoWhite.provider;
+      // return AssetImage("assets/technology_icon.jpg");
+
+      case Assets.businessIcon:
+        return Assets.logoWhite.provider;
+      // return AssetImage("assets/business_icon.jpg");
+
+      case Assets.sportIcon:
+        return Assets.logoWhite.provider;
+      // return AssetImage("assets/sport_icon.jpg");
+
+      // Cities
+      case Assets.aucklandCity:
+        return AssetImage("assets/1.jpg");
+
+      case Assets.hamiltonCity:
+        return AssetImage("assets/hamilton.jpg");
+
+      case Assets.christchurchCity:
+        return AssetImage("assets/christchurch.jpg");
+
+      case Assets.welingtonCity:
+        return AssetImage("assets/welington.jpg");
     }
   }
 }
