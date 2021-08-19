@@ -123,7 +123,7 @@ class _FourTabsContainerState extends State<FourTabsContainer>
                                         ),
                                         SizedBox(height: dims.height(4)),
                                         AutoSizeText(
-                                          "${'in'.tr} ${'newzealand'.tr}$questionMark",
+                                          "${'in'.tr} ${'newzealand'.tr}${'question_mark'.tr}",
                                           textAlign: TextAlign.start,
                                           maxFontSize: 24,
                                           minFontSize: 8,
@@ -179,7 +179,7 @@ class _FourTabsContainerState extends State<FourTabsContainer>
                                         ),
                                         SizedBox(height: dims.height(4)),
                                         AutoSizeText(
-                                          "${'in'.tr} ${'newzealand'.tr}$questionMark",
+                                          "${'in'.tr} ${'newzealand'.tr}${'question_mark'.tr}",
                                           textAlign: TextAlign.start,
                                           maxFontSize: 24,
                                           minFontSize: 8,
@@ -235,7 +235,7 @@ class _FourTabsContainerState extends State<FourTabsContainer>
                                         ),
                                         SizedBox(height: dims.height(4)),
                                         AutoSizeText(
-                                          "${'in'.tr} ${'newzealand'.tr}$questionMark",
+                                          "${'in'.tr} ${'newzealand'.tr}${'question_mark'.tr}",
                                           textAlign: TextAlign.start,
                                           maxFontSize: 24,
                                           minFontSize: 8,
@@ -291,7 +291,7 @@ class _FourTabsContainerState extends State<FourTabsContainer>
                                         ),
                                         SizedBox(height: dims.height(4)),
                                         AutoSizeText(
-                                          "${'will_you_need'.tr}$questionMark",
+                                          "${'will_you_need'.tr}${'question_mark'.tr}",
                                           textAlign: TextAlign.start,
                                           maxFontSize: 24,
                                           minFontSize: 8,
