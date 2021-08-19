@@ -188,7 +188,7 @@ class MobileHomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                       image: DecorationImage(
                           fit: BoxFit.contain,
-                          image: Assets.logoPlaceholderWhite.provider)),
+                          image: Assets.logoWhite.provider)),
                 ),
               ),
             ),
