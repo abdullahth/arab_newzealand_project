@@ -12,5 +12,3 @@ final darkTheme = ThemeData(
   primaryColor: Color(0xFF30f05a),
   accentColor: Color(0xFFffffff),
 );
-
-final questionMark = Get.locale == Locale('en') ? '?' : '؟';
