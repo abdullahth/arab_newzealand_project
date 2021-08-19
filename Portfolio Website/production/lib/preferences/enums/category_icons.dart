@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:production/preferences/enums/assets.dart';
 
 enum CategoryIcons {
   health,
@@ -16,31 +17,31 @@ extension ext on CategoryIcons {
   AssetImage get provider {
     switch (this) {
       case CategoryIcons.health:
-        return AssetImage('');
+        return Assets.healthIcon.provider;
 
       case CategoryIcons.agriculture:
-        return AssetImage('');
+        return Assets.agricultureIcon.provider;
 
       case CategoryIcons.education:
-        return AssetImage('');
+        return Assets.educationIcon.provider;
 
       case CategoryIcons.youthDevelopment:
-        return AssetImage('');
+        return Assets.youthDevelopmentIcon.provider;
 
       case CategoryIcons.tourism:
-        return AssetImage('');
+        return Assets.tourismIcon.provider;
 
       case CategoryIcons.landscape:
-        return AssetImage('');
+        return Assets.landscapeIcon.provider;
 
       case CategoryIcons.technology:
-        return AssetImage('');
+        return Assets.technologyIcon.provider;
 
       case CategoryIcons.business:
-        return AssetImage('');
+        return Assets.businessIcon.provider;
 
       case CategoryIcons.sport:
-        return AssetImage('');
+        return Assets.sportIcon.provider;
     }
   }
 }
