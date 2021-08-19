@@ -27,14 +27,23 @@ extension ext on CategoriesRoutes {
   String? get routeUrl {
     switch (this) {
       case CategoriesRoutes.agriculture:
+        return 'agriculture';
       case CategoriesRoutes.sports:
+        return 'sports';
       case CategoriesRoutes.education:
+        return 'education';
       case CategoriesRoutes.youthDevelopment:
+        return 'youthDevelopment';
       case CategoriesRoutes.health:
+        return 'health';
       case CategoriesRoutes.technology:
+        return 'technology';
       case CategoriesRoutes.business:
+        return 'business';
       case CategoriesRoutes.tourism:
+        return 'tourism';
       case CategoriesRoutes.landscape:
+        return 'landscape';
       default:
         return null;
     }
