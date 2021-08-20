@@ -28,7 +28,7 @@ class MobileHomePage extends StatelessWidget {
               height: dims.deviceHeight,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                    image: Assets.natureBackground.provider, fit: BoxFit.cover),
+                    image: Assets.natureBackgroundOne.provider, fit: BoxFit.cover),
               ),
               child: BackdropFilter(
                 filter: ImageFilter.blur(
