@@ -9,7 +9,8 @@ enum Assets {
   logoWhite,
   logoTypo,
   logoWhiteTypo,
-  natureBackground,
+  natureBackgroundOne,
+  natureBackgroundTwo,
 
   // Categories
   rugby,
@@ -21,6 +22,12 @@ enum Assets {
   technology,
   business,
   tourism,
+
+  // Hotels
+  cordisHotel,
+  hiltonHotel,
+  novotelHotel,
+  sofitelHotel,
 
   // Categories Icons
   healthIcon,
@@ -38,6 +45,10 @@ enum Assets {
   hamiltonCity,
   christchurchCity,
   welingtonCity,
+
+  // Quoters
+  quoterEvanglineLilly,
+  quoterLukeEvans,
 }
 
 extension path on Assets {
@@ -61,8 +72,11 @@ extension path on Assets {
       case Assets.logoWhiteTypo:
         return AssetImage("assets/logo-placeholder-white.png");
 
-      case Assets.natureBackground:
+      case Assets.natureBackgroundOne:
         return AssetImage("assets/5.jpg");
+
+      case Assets.natureBackgroundTwo:
+        return AssetImage("assets/2.jpg");
 
       // Categories
       case Assets.mountains:
@@ -140,6 +154,26 @@ extension path on Assets {
 
       case Assets.welingtonCity:
         return AssetImage("assets/welington.jpg");
+
+      // Hotels
+      case Assets.cordisHotel:
+        return AssetImage("assets/cordis_hotel.jpg");
+
+      case Assets.hiltonHotel:
+        return AssetImage("assets/hilton_hotel.jpg");
+
+      case Assets.novotelHotel:
+        return AssetImage("assets/novotel_hotel.jpeg");
+
+      case Assets.sofitelHotel:
+        return AssetImage("assets/sofitel_hotel.jpg");
+
+      // Quoters
+      case Assets.quoterEvanglineLilly:
+        return AssetImage("assets/quoter_evangline_lily.png");
+
+      case Assets.quoterLukeEvans:
+        return AssetImage("assets/quoter_luke_evans.png");
     }
   }
 }
