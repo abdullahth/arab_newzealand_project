@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:production/preferences/consts.dart';
 import 'package:production/preferences/localization.dart';
-import 'package:production/screens/journey_page/journey_page.dart';
+import 'package:production/screens/home_page/home_page.dart';
 
 import 'preferences/router.dart';
 
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       translations: Messages(),
       initialRoute: '/',
       onGenerateRoute: AppRouter.router.generator,
-      home: JourneyPage(),
+      home: HomePage(),
       // locale: Locale('ar'),
       locale: Locale('en'),
       fallbackLocale: Locale('en'),

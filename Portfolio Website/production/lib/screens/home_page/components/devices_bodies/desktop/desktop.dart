@@ -27,7 +27,8 @@ class DesktopHomePage extends StatelessWidget {
               height: dims.deviceHeight,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                    image: Assets.natureBackgroundOne.provider, fit: BoxFit.cover),
+                    image: Assets.natureBackgroundOne.provider,
+                    fit: BoxFit.cover),
               ),
               child: BackdropFilter(
                 filter: ImageFilter.blur(
@@ -60,7 +61,7 @@ class DesktopHomePage extends StatelessWidget {
                         showendAfterDurationInMilliSecs: 2250,
                         durationInMilliSecs: 250,
                         child: AutoSizeText(
-                          'newzealand'.tr,
+                          "${'outara_group'.tr}",
                           textAlign: TextAlign.center,
                           maxFontSize: 128,
                           minFontSize: 72,

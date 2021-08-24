@@ -15,11 +15,11 @@ class AppRouter {
   static void setupRouter() {
     router.define(
       '/',
-      handler: Handler(handlerFunc: (_, __) => JourneyPage()),
+      handler: Handler(handlerFunc: (_, __) => HomePage()),
     );
     router.define(
       '/journey',
-      handler: Handler(handlerFunc: (_, __) => HomePage()),
+      handler: Handler(handlerFunc: (_, __) => JourneyPage()),
     );
 
     // Home Page App Bar Pages
