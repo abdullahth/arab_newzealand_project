@@ -1,5 +1,9 @@
 import 'package:dims_config/dims_config.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:production_v2/prefernces/theme.dart';
+import 'prefernces/localizations.dart';
+import 'screens/landing-page/landing-page.dart';
 
 void main() {
   initailizeDims(
@@ -16,12 +20,19 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: Scaffold(),
+    return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Aotara Group',
+      theme: themeData,
+      translations: AppLocalizations(),
+      fallbackLocale: Locale('en'),
+      locale: Get.locale,
+      supportedLocales: [
+        Locale('ar'),
+        Locale('en'),
+        Locale('fr'),
+      ],
+      home: LandingPage(),
     );
   }
 }
