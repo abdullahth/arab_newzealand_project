@@ -4,6 +4,10 @@ class Messages extends Translations {
   @override
   Map<String, Map<String, String>> get keys => {
         "ar": {
+          'outara': "أوتارا",
+          'group': 'مجموعة',
+          'outara_group': 'مجموعة أوتارا',
+
           'question_mark': "؟",
           // Home Page
           'welcome': "أهلاً بك في...",
@@ -80,6 +84,10 @@ class Messages extends Translations {
           'evans_quote': "أشعر أن نيوزيلندا هي بيتي الثاني."
         },
         "en": {
+          'outara': "Outara",
+          'group': 'Group',
+          'outara_group': 'Outara Group',
+
           'question_mark': "?",
           // Home Page
           'welcome': "Welcome to...",
