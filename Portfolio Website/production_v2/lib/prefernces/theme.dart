@@ -5,6 +5,6 @@ final ThemeData themeData = ThemeData(
   primaryColor: Color(0xFFffd65b),
   accentColor: Color(0xFFffffff),
   scaffoldBackgroundColor: Color(0xFF1f2c30),
-  fontFamily: FontFamilies.anton.fontFamily,
+  fontFamily: FontFamilies.quicksand.fontFamily,
   
 );
