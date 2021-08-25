@@ -4,6 +4,9 @@ enum Assets {
   logo,
   logoWhite,
   logoBlack,
+  logoTypo,
+  logoWhiteTypo,
+  logoBlackTypo,
   bgOne,
   bgTwo,
   bgThree,
@@ -22,6 +25,15 @@ extension ext on Assets {
 
       case Assets.logoBlack:
         return AssetImage('assets/logo-black.png');
+
+      case Assets.logoTypo:
+        return AssetImage('assets/logo-typo.png');
+
+      case Assets.logoWhiteTypo:
+        return AssetImage('assets/logo-white-typo.png');
+
+      case Assets.logoBlackTypo:
+        return AssetImage('assets/logo-black-typo.png');
 
       case Assets.bgOne:
         return AssetImage('assets/background_one.png');
