@@ -1,6 +1,7 @@
 enum FontFamilies {
   anton,
   cairo,
+  quicksand,
 }
 
 extension ext on FontFamilies {
@@ -10,6 +11,8 @@ extension ext on FontFamilies {
         return 'Cairo';
       case FontFamilies.anton:
         return 'Anton';
+      case FontFamilies.quicksand:
+        return 'Quicksand';
     }
   }
 }
