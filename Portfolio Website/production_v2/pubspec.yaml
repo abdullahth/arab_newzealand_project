@@ -22,6 +22,9 @@ dependencies:
   auto_size_text_pk: ^3.0.0
   get: ^4.3.8
 
+  # External Links
+  url_launcher: ^6.0.9
+
   
 dev_dependencies:
   flutter_test:
@@ -32,7 +35,6 @@ flutter:
 
   assets:
     - assets/
-    - icons/
 
   fonts:
     - family: Anton
@@ -54,3 +56,11 @@ flutter:
           weight: 700
         - asset: fonts/Cairo/Cairo-Black.ttf
           weight: 900
+
+
+    - family: Quicksand
+      fonts: 
+          - asset: fonts/Quicksand/Quicksand-Regular.ttf
+            weight: 400
+          - asset: fonts/Quicksand/Quicksand-Bold.ttf
+            weight: 900
