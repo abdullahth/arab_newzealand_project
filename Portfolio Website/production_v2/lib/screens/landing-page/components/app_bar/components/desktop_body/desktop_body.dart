@@ -71,11 +71,11 @@ class _LandingPageDesktopAppBarState extends State<LandingPageDesktopAppBar> {
                   SizedBox(width: dims.deviceWidth * 0.05),
                   TextButton(
                     onPressed: () {
-                      final callback = widget.tabsCallback['services'];
+                      final callback = widget.tabsCallback['vision'];
                       callback!();
                     },
                     child: AutoSizeText(
-                      'services'.tr,
+                      'our_vision'.tr,
                       style: TextStyle(
                         color: theme.accentColor,
                         fontSize: 16,
@@ -89,11 +89,29 @@ class _LandingPageDesktopAppBarState extends State<LandingPageDesktopAppBar> {
                   SizedBox(width: dims.deviceWidth * 0.05),
                   TextButton(
                     onPressed: () {
-                      final callback = widget.tabsCallback['testimonials'];
+                      final callback = widget.tabsCallback['industries'];
                       callback!();
                     },
                     child: AutoSizeText(
-                      'testimonials'.tr,
+                      'industries'.tr,
+                      style: TextStyle(
+                        color: theme.accentColor,
+                        fontSize: 16,
+                        fontWeight: FontWeight.normal,
+                      ),
+                      maxLines: 1,
+                      maxFontSize: 32,
+                      minFontSize: 16,
+                    ),
+                  ),
+                  SizedBox(width: dims.deviceWidth * 0.05),
+                  TextButton(
+                    onPressed: () {
+                      final callback = widget.tabsCallback['why_us'];
+                      callback!();
+                    },
+                    child: AutoSizeText(
+                      "${'why_us'.tr}${'question_mark'.tr}",
                       style: TextStyle(
                         color: theme.accentColor,
                         fontSize: 16,
