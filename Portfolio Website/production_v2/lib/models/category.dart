@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import 'package:production_v2/prefernces/enums/assets.dart';
-import 'package:production_v2/prefernces/enums/categories_routes.dart';
-import 'package:production_v2/prefernces/enums/category_icons.dart';
+import 'package:production_v2/prefernces/enums/industries_icons.dart';
+import 'package:production_v2/prefernces/enums/industries_routes.dart';
 
 class Category {
   String categoryName;
   AssetImage icon, backgroundAsset;
-  CategoriesRoutes categoryRoute;
+  IndustriesRoutes categoryRoute;
 
   Category({
     required this.categoryName,
@@ -21,51 +21,51 @@ class Category {
   static List<Category> categoriesData = [
     Category(
       categoryName: 'health'.tr,
-      icon: CategoryIcons.health.provider,
+      icon: IndustriesIcons.health.provider,
       backgroundAsset: Assets.health.provider,
-      categoryRoute: CategoriesRoutes.health,
+      categoryRoute: IndustriesRoutes.health,
     ),
     Category(
       categoryName: 'sport'.tr,
-      icon: CategoryIcons.sport.provider,
+      icon: IndustriesIcons.sport.provider,
       backgroundAsset: Assets.rugby.provider,
-      categoryRoute: CategoriesRoutes.sports,
+      categoryRoute: IndustriesRoutes.sports,
     ),
     Category(
       categoryName: 'education'.tr,
-      icon: CategoryIcons.education.provider,
+      icon: IndustriesIcons.education.provider,
       backgroundAsset: Assets.education.provider,
-      categoryRoute: CategoriesRoutes.education,
+      categoryRoute: IndustriesRoutes.education,
     ),
     Category(
       categoryName: 'business'.tr,
-      icon: CategoryIcons.business.provider,
+      icon: IndustriesIcons.business.provider,
       backgroundAsset: Assets.business.provider,
-      categoryRoute: CategoriesRoutes.business,
+      categoryRoute: IndustriesRoutes.business,
     ),
     Category(
       categoryName: 'technology'.tr,
-      icon: CategoryIcons.technology.provider,
+      icon: IndustriesIcons.technology.provider,
       backgroundAsset: Assets.technology.provider,
-      categoryRoute: CategoriesRoutes.technology,
+      categoryRoute: IndustriesRoutes.technology,
     ),
     Category(
       categoryName: 'youth_development'.tr,
-      icon: CategoryIcons.youthDevelopment.provider,
+      icon: IndustriesIcons.youthDevelopment.provider,
       backgroundAsset: Assets.youth.provider,
-      categoryRoute: CategoriesRoutes.youthDevelopment,
+      categoryRoute: IndustriesRoutes.youthDevelopment,
     ),
     Category(
       categoryName: 'tourism'.tr,
-      icon: CategoryIcons.tourism.provider,
+      icon: IndustriesIcons.tourism.provider,
       backgroundAsset: Assets.tourism.provider,
-      categoryRoute: CategoriesRoutes.tourism,
+      categoryRoute: IndustriesRoutes.tourism,
     ),
     Category(
       categoryName: 'women'.tr,
-      icon: CategoryIcons.women.provider,
+      icon: IndustriesIcons.women.provider,
       backgroundAsset: Assets.women.provider,
-      categoryRoute: CategoriesRoutes.women,
+      categoryRoute: IndustriesRoutes.women,
     ),
   ];
 }
