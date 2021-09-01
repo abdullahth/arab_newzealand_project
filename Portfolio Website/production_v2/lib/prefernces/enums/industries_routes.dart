@@ -1,4 +1,4 @@
-enum CategoriesRoutes {
+enum IndustriesRoutes {
   anonymosCategoryName,
   sports,
   agriculture,
@@ -12,10 +12,10 @@ enum CategoriesRoutes {
   women,
 }
 
-extension ext on CategoriesRoutes {
+extension ext on IndustriesRoutes {
   Function(String categoryName)? get navigateByCategoryNameCallback {
     switch (this) {
-      case CategoriesRoutes.anonymosCategoryName:
+      case IndustriesRoutes.anonymosCategoryName:
         return (categoryName) {
           print(categoryName);
         };
@@ -27,25 +27,25 @@ extension ext on CategoriesRoutes {
 
   String? get routeUrl {
     switch (this) {
-      case CategoriesRoutes.agriculture:
+      case IndustriesRoutes.agriculture:
         return 'agriculture';
-      case CategoriesRoutes.sports:
+      case IndustriesRoutes.sports:
         return 'sports';
-      case CategoriesRoutes.education:
+      case IndustriesRoutes.education:
         return 'education';
-      case CategoriesRoutes.youthDevelopment:
+      case IndustriesRoutes.youthDevelopment:
         return 'youthDevelopment';
-      case CategoriesRoutes.health:
+      case IndustriesRoutes.health:
         return 'health';
-      case CategoriesRoutes.technology:
+      case IndustriesRoutes.technology:
         return 'technology';
-      case CategoriesRoutes.business:
+      case IndustriesRoutes.business:
         return 'business';
-      case CategoriesRoutes.tourism:
+      case IndustriesRoutes.tourism:
         return 'tourism';
-      case CategoriesRoutes.landscape:
+      case IndustriesRoutes.landscape:
         return 'landscape';
-      case CategoriesRoutes.women:
+      case IndustriesRoutes.women:
         return 'women';
       default:
         return null;

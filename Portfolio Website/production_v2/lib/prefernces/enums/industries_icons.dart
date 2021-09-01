@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:production_v2/prefernces/enums/assets.dart';
 
-enum CategoryIcons {
+enum IndustriesIcons {
   health,
   education,
   sport,
@@ -14,37 +14,37 @@ enum CategoryIcons {
   women,
 }
 
-extension ext on CategoryIcons {
+extension ext on IndustriesIcons {
   AssetImage get provider {
     switch (this) {
-      case CategoryIcons.health:
+      case IndustriesIcons.health:
         return Assets.healthIcon.provider;
 
-      case CategoryIcons.agriculture:
+      case IndustriesIcons.agriculture:
         return Assets.agricultureIcon.provider;
 
-      case CategoryIcons.education:
+      case IndustriesIcons.education:
         return Assets.educationIcon.provider;
 
-      case CategoryIcons.youthDevelopment:
+      case IndustriesIcons.youthDevelopment:
         return Assets.youthDevelopmentIcon.provider;
 
-      case CategoryIcons.tourism:
+      case IndustriesIcons.tourism:
         return Assets.tourismIcon.provider;
 
-      case CategoryIcons.landscape:
+      case IndustriesIcons.landscape:
         return Assets.landscapeIcon.provider;
 
-      case CategoryIcons.technology:
+      case IndustriesIcons.technology:
         return Assets.technologyIcon.provider;
 
-      case CategoryIcons.business:
+      case IndustriesIcons.business:
         return Assets.businessIcon.provider;
 
-      case CategoryIcons.sport:
+      case IndustriesIcons.sport:
         return Assets.sportIcon.provider;
 
-      case CategoryIcons.women:
+      case IndustriesIcons.women:
         return Assets.womenIcon.provider;
     }
   }
